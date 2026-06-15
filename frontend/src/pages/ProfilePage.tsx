@@ -101,7 +101,7 @@ function ProfilePage() {
             <InputField
               label="Phone number"
               name="phone"
-              placeholder="+1 555 0100"
+              placeholder="+237 5555 0100"
               value={profile.phone}
               onChange={(e) => setProfile((p) => ({ ...p, phone: e.target.value }))}
             />

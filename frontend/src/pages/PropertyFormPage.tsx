@@ -176,11 +176,11 @@ function PropertyFormPage() {
 
           <div className="form-row">
             <InputField
-              label="Price (USD)"
+              label="Price (FCFA)"
               name="price"
               type="number"
               min={0}
-              placeholder="1200"
+              placeholder="120,000"
               value={form.price}
               error={errors.price}
               onChange={(e) => update("price", e.target.value)}
@@ -201,7 +201,7 @@ function PropertyFormPage() {
             <InputField
               label="City"
               name="city"
-              placeholder="Barcelona"
+              placeholder="Douala"
               value={form.city}
               error={errors.city}
               onChange={(e) => update("city", e.target.value)}
@@ -209,7 +209,7 @@ function PropertyFormPage() {
             <InputField
               label="Country"
               name="country"
-              placeholder="Spain"
+              placeholder="Cameroon"
               value={form.country}
               error={errors.country}
               onChange={(e) => update("country", e.target.value)}
