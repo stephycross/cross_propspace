@@ -18,7 +18,7 @@ const PLACEHOLDER =
 
 function formatPrice(value: number, purpose: string): string {
   const amount = new Intl.NumberFormat("en-US").format(value);
-  return purpose === "rent" ? `$${amount}/mo` : `$${amount}`;
+  return purpose === "rent" ? `FCFA${amount}/mo` : `FCFA${amount}`;
 }
 
 function PropertyCard({ property, onEdit, onDelete }: PropertyCardProps) {

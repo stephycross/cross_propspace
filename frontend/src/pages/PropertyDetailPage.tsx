@@ -88,7 +88,7 @@ function PropertyDetailPage() {
           </span>
           <h1 className="detail-title">{property.title}</h1>
           <p className="detail-price">
-            ${formattedPrice}
+            FCFA{formattedPrice}
             {property.purpose === "rent" ? "/mo" : ""}
           </p>
 
