@@ -1,0 +1,11 @@
+.property-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 26px;
+  max-width: 720px;
+}
+
+.property-form .btn-primary {
+  align-self: flex-start;
+}
